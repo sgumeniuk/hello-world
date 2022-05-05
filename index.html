@@ -1,10 +1,62 @@
 <!doctype html>
 <html>
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello World</title>
+    <script src="https://kit.fontawesome.com/41d00ffb93.js" crossorigin="anonymous"></script>
   </head>
+
   <body>
-    <h1>Hello World</h1>
-    <p>Hello From Gitpod!</p>
+    <header class="header">
+      <nav class="header__contacts">
+        <div>
+          <a href="https://facebook.com">
+            <i class="fa-brands fa-facebook-f"></i>
+         </a>
+           <a href="https://instagram.com">
+            <i class="fa-brands fa-instagram-square"></i>
+           </a>
+           <a href="https://youtube.com">
+            <i class="fa-brands fa-youtube"></i>
+           </a>
+        </div>
+      </nav>
+      <nav class="header__top-navigation"></nav>
+        <div class="header__top-navigation_link">
+          <a href="contacts.html">Contacts</a>
+        </div>
+      <div class="header__banner">
+        <h1 class="header__banner-h1">We'll be back very soon</h1>
+        <p>and you still can order our services or subscribe for the best offers!</p>
+        <a href="#our-services" class="header__banner-link-button1">Our Services</a>
+        <a href="#contacts" class="header__banner-link-button2">Receive offers</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="our-services">
+        <h2 class="our-services__h2">Our Services</h2>
+        <p class="our-services__subheader">We provide all kind of services for small and micro businesses:</p>
+        <div class="our-services__kinds">
+          <article class="kind">
+            <img class="kind__image" src="./img/kind-services.jpeg" alt="Analytics">
+            <h3 class="kind-h3">Analytics</h3>
+            <div class="kind-descr">Identify weaknesses of your business and find the most effective solution.</div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__contacts">
+        <h2 class="footer__contacts-h2">Contacts</h2>
+        <form action="YOUR_ENDPOINT_HERE" method="post">
+          <input name="name" type="text" placeholder="Name*" required>
+          <input name="email" type="email" placeholder="Email*" required>
+          <input type="submit" value="Receive offers" required>
+        </form>
+      </div>
+    </footer>
   </body>
 </html>
