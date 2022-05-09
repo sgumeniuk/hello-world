@@ -33,8 +33,10 @@
       <div class="header__banner">
         <p class="text-bigest">We'll be back very soon</p> 
         <p class="text-small">and you still can order our services or subscribe for the best offers!</p>
-        <a href="#our-services" class="header__banner-link-button1">Our Services</a>
-        <a href="#contacts" class="header__banner-link-button2">Receive offers</a>
+        <div class="header-button">
+         <a href="#our-services" class="header__banner-link-button1">Our Services</a>
+         <a href="#contacts" class="header__banner-link-button2">Receive offers</a>
+        </div>
       </div>
     </header>
 
@@ -43,17 +45,17 @@
         <h2 class="our-services__h2">Our Services</h2>
         <p class="our-services__subheader">We provide all kind of services for small and micro businesses:</p>
         <div class="our-services__kinds">
-          <article class="kind">
+          <article class="kind-analytics">
             <img class="kind__image" src="./img/kind-services-analytics.jpeg" alt="Analytics">
             <h3 class="kind-h3">Analytics</h3>
             <div class="kind-descr">Identify weaknesses of your business and find the most effective solution.</div>
           </article>
-          <article class="kind">
+          <article class="kind-branding">
             <img class="kind__image" src="./img/kind-services-branding.jpeg" alt="Branding">
             <h3 class="kind-h3">Branding</h3>
             <div class="kind-descr">Build a strong brand around your business to evolve and scale up.</div>
           </article>
-          <article class="kind">
+          <article class="kind-strategy">
             <img class="kind__image" src="./img/kind-services-strategy.jpeg" alt="Strategy">
             <h3 class="kind-h3">Strategy</h3>
             <div class="kind-descr">We find all the ways to achieve your business goals and grow fast.</div>
@@ -65,11 +67,17 @@
     <footer class="footer">
       <div class="footer__contacts">
         <h2 class="footer__contacts-h2">Contacts</h2>
-        <form action="YOUR_ENDPOINT_HERE" method="post">
+        <p class="footer__contacts-p">Though our website is under construction, you can always call us, write us or simply visit us. Fill out the form to get the best personalized offers by mail.</p>
+        <p class="footer-address">Address</p>
+        <p class="footer-hours">Hours</p>
+        <p class="footer-contacts">Contacts</p>
+        <div class="form">
+         <form action="YOUR_ENDPOINT_HERE" method="post">
           <input name="name" type="text" placeholder="Name*" required>
           <input name="email" type="email" placeholder="Email*" required>
           <input type="submit" value="Receive offers" required>
-        </form>
+         </form>
+        </div>
       </div>
     </footer>
   </body>

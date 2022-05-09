@@ -1,3 +1,32 @@
 @import url(common.css);
 @import url(index-header.css);
 @import url(index-footer.css);
+
+ .our-services__h2, .our-services__subheader {
+     text-align: center;
+ }
+ .our-services__kinds {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+ }
+ .kind__image {
+    width: 300px;
+    height: 300px;
+ }
+ .kind-analytics {
+     border: solid;
+     border-color: rgb(99, 95, 95);
+     
+ }
+ .kind-branding {
+    border: solid;
+    border-color: rgb(99, 95, 95);
+    
+}.kind-strategy {
+    border: solid;
+    border-color: rgb(99, 95, 95);
+    
+}
