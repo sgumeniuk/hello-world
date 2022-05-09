@@ -7,9 +7,23 @@
 
 :root {
     font-family: 'Asap', sans-serif;
-    color: black;
+    color: white;
+    background-color: black;
 }
 img {
     display: block;
     width: 100%;
+}
+.kind__image {
+   width: 300px;
+   height: 300px;
+}
+.our-services__h2, .our-services__subheader {
+    text-align: center;
+}
+.our-services__kinds{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between;
 }
